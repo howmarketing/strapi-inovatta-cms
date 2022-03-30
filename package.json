@@ -1,0 +1,35 @@
+{
+  "name": "inovatta-strapi-1",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.1.5",
+    "@strapi/plugin-users-permissions": "4.1.5",
+    "@strapi/strapi": "4.1.5",
+    "lodash.set": "^4.3.2",
+    "mysql": "2.18.1",
+    "strapi-plugin-comments": "^2.0.10",
+    "strapi-plugin-email-designer": "^2.1.0"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f617fe68-9be3-4dde-a684-04db0609e0e8",
+    "template": "corporate"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
