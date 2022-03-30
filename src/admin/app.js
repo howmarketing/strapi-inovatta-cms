@@ -9,7 +9,7 @@ export default {
     menu: { logo: MenuLogo },
     theme: {
       colors: {
-        primary100: '#f6ecfc', //'#f6ecfc',
+        primary100: '#181934', //'#f6ecfc',
         primary200: '#e0cf81', //'#e0c1f4',
         primary500: '#ac7300', //'#ac73e6',
         primary600: '#cfb800', //'#9736e8',
