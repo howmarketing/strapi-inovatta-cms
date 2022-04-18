@@ -1,6 +1,7 @@
 import AuthLogo from './extensions/auth-logo.png';
 import MenuLogo from './extensions/logo.png';
 import favicon from './extensions/favicon.ico';
+// import MyNewWYSIGWYG from './extensions/components/MyNewWYSIGWYG'; // this file contains the logic for your new WYSIWYG
 
 export default {
   config: {
@@ -48,5 +49,6 @@ export default {
   },
   bootstrap(app) {
     console.log(app);
+   app.addFields({ type: 'wysiwyg', Component: MyNewWYSIGWYG });
   },
 };

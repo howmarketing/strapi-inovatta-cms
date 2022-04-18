@@ -17,7 +17,8 @@
     "lodash.set": "^4.3.2",
     "mysql": "2.18.1",
     "strapi-plugin-comments": "^2.0.10",
-    "strapi-plugin-email-designer": "^2.1.0"
+    "strapi-plugin-email-designer": "^2.1.0",
+    "strapi-plugin-local-image-sharp": "^1.0.2"
   },
   "devDependencies": {},
   "author": {

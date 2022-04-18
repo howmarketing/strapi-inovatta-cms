@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "sobres_nos",
+  "info": {
+    "singularName": "sobre-nos",
+    "pluralName": "sobres-nos",
+    "displayName": "Sobre Nós"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
