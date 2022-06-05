@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>{pluginId}&apos;s Página inicial</h1>
-      <p>Happy coding</p>
+      <p>Arizas Home page.</p>
     </div>
   );
 };
