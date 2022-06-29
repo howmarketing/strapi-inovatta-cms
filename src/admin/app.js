@@ -1,6 +1,8 @@
 import AuthLogo from './extensions/auth-logo.png';
 import MenuLogo from './extensions/logo.png';
 import favicon from './extensions/favicon.ico';
+//import MyNewWYSIGWYG from './extensions/components/MyNewWYSIGWYG'; // this file contains the logic for your new WYSIWYG
+import MyNewWYSIGWYG from '../plugins/wysiwyg/admin/src/index'; // TEST. this file contains the logic for your new WYSIWYG
 
 export default {
   config: {
@@ -46,7 +48,12 @@ export default {
       // 'zh',
     ],
   },
+  en: {
+    "app.components.LeftMenu.navbrand.title": "Dashboard",
+    "app.components.LeftMenu.navbrand.workplace": "...",
+  },
   bootstrap(app) {
-    console.log(app);
+    console.debug('src/admin/app.js: ',app);
+   app.addFields({ type: 'wysiwyg', Component: MyNewWYSIGWYG });
   },
 };
